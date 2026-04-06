@@ -16,7 +16,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col bg-white pb-20">
       <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-sm px-5 h-14
                          flex items-center justify-between border-b border-gray-100">
-        <span className="text-lg font-semibold text-[#7F77DD]">숨표</span>
+        <img src="/logo.png" alt="숨표" className="h-8 w-8 rounded-xl" />
         <div className="flex items-center gap-3">
           <button className="text-gray-400 p-1"><Bell size={20} /></button>
           <div className="w-8 h-8 rounded-full bg-[#EEEDFE] flex items-center justify-center">
